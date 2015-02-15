@@ -1,0 +1,78 @@
+/*
+	Theme Name: pressed
+	Description: A custom theme for Pressed and Squeezed
+	Version: 1.0
+*/
+
+img {
+	max-width: 100%;
+}
+
+h1 {
+  font-family: josefin-slab, serif;
+  font-weight: 400;
+  font-size: 3em;
+  text-align: center;
+}
+
+nav {
+	position: relative;
+	text-align: center;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 2em;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	margin: 0;
+	display: inline;
+/*	float: left;*/
+	padding-left: 1em;
+	padding-right: 2em;
+}
+
+body {
+	font-family: merriweather, serif;
+	font-weight: 400;
+	max-width: 75em;
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+section > section {
+	width: 60%;
+	max-width: 27.8125em;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.5em;
+}
+
+section > section h1 {
+	font-size: 2em;
+}
+
+footer {
+	font-size: .8em;
+	border-top: 1px dotted #ccc;
+	margin-top: 2em;
+	padding-top: 2em;
+	padding-bottom: 5em;
+}
+
+footer h1 {
+	font-family: merriweather, serif;
+	font-weight: 700;
+	font-size: 1em;
+	text-align: left;
+}
+
+footer p {
+	line-height: .5;
+}
