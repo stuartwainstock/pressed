@@ -1,5 +1,6 @@
 <?php get_header(); ?>
-		<section>
+<div class="clearfix">
+		<section class="main">
 			<img src="http://localhost/wk2/wordpress/wp-content/themes/pressed/images/hero.jpg" />
 				<?php if ( have_posts()) : while ( have_posts () ) : the_post(); ?>
 			<article>
@@ -10,5 +11,5 @@
 			<p><?php _e('Sorry, no posts matched your criteria.' ); ?></p>
 		<?php endif; ?>
 		</section>
-		
+</div>
 <?php get_footer( ); ?>

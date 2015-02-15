@@ -45,6 +45,15 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 }
+.main{
+	width: 80%;
+	float: left;
+}
+.sidebar{
+	width: 20%;
+	float: left;
+	padding: 2em;
+}
 
 section > section {
 	width: 60%;
@@ -76,3 +85,17 @@ footer h1 {
 footer p {
 	line-height: .5;
 }
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
